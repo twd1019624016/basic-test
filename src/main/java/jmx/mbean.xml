@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mbean-description>
+	<mbean name="myMBean" 
+	className="javax.management.modelmbean.RequiredModelMBean"
+	description="rerererererr"
+	type="jmx.Car">
+	
+	<attribute name="Color"
+		description="123123"
+		type="java.lang.String"/>
+	
+	<operation name="driver"
+	description="fasdf"
+	impact="ACTION"
+	returnType="void"
+	>
+	<paramter name="driver"
+	description="fsdfsadf"
+	type="java.lang.String"/>
+	</operation>
+	
+	
+	
+	</mbean>
+	
+
+
+
+
+</mbean-description>
