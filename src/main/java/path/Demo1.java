@@ -14,6 +14,7 @@ public class Demo1 {
 	    for (FileStore fileStore : fileStores) {
 			System.out.println(fileStore);
 			System.out.println(fileStore.getTotalSpace());
+		    ///////////////////////////////////
 		}
 	}
 }
